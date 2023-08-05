@@ -1,0 +1,51 @@
+5.3 MODULE DESCRIPTION:
+             
+1.Importing Required Libraries:
+The code begins by importing the necessary libraries for the application: tkinter, random, and messagebox.
+tkinter is used to create the graphical user interface (GUI) elements.
+random is used to select random words from the word list.
+messagebox is used to display pop-up message boxes.
+2.Creating the Root Window:
+The root variable is created as the main window of the application using the Tk() function from tkinter.
+The root window serves as the container for all other GUI elements.
+3. Initializing Word Lists:
+Two lists are defined: answers and words.
+answers contains the correct answers for the jumbled words.
+words contains the jumbled words that will be presented to the player.
+4.Defining Global Variables:
+Several global variables are defined to keep track of the game state and score.
+num stores the index of the current word being displayed.
+c stores the number of correct answers.
+d stores the total number of attempts.
+s stores the score string that will be displayed to the player.
+l is a label widget that displays the score.
+5. Defining Reset Function:
+The reset() function is defined to reset the game state and select a new word.
+It updates the num variable with a random index.
+It updates the label with the new jumbled word.
+It clears the text entered in the entry field (e1).
+ 6.Defining Default Function:
+The default() function is defined to display the current jumbled word on the label.
+It sets the label text to the current word using the num index.
+  Defining Check Answer Function:
+The checkans() function is called when the player clicks the "Check" button.
+It increments the total attempts (d) by 1.
+It retrieves the entered answer from the entry field (e1) using the get() method.
+It compares the entered answer with the correct answer (answers[num]).
+If the answer is correct, it displays a congratulatory message using messagebox.showinfo(), increments the correct answers (c), and updates the score string (s).
+If the answer is incorrect, it displays an error message using messagebox.showerror().
+7.  Configuring Root Window:
+The root window is configured by setting its geometry (geometry()) and title (title()).
+The background color is set to black (background="#000000").
+ 8. Creating GUI Elements:
+Labels, entry fields, and buttons are created using Label(), Entry(), and Button() functions, respectively.
+The labels display the game title and the jumbled words.
+The entry field (e1) allows the player to enter their answer.
+The "Check" button calls the checkans() function, and the "Reset" button calls the reset() function.
+ 9. Calling Default Function:
+The default() function is called to display the first jumbled word on the label.
+  10.Starting the Event Loop:
+The mainloop() function is called to start the Tkinter event loop, which listens for user interactions and updates the GUI accordingly.
+The program remains in the event loop until the
+
+

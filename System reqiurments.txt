@@ -1,0 +1,12 @@
+                  2.SYSTEM SPECIFICATIONS
+ 
+SOFTWARE SPECIFICATIONS:
+                                           OPERATING SYSTEMS         :   WINDOWS 10 PRO(64 BIT)
+                                            FRONT END                           :    PYTHON
+                                             IDLE FOR PYTHON             :  VERSION (3.11 64 BIT)
+                                                   
+HARDWRE SPECIFICATIONS
+                                               PROCESSOR                                :    AMD PRO A4-4350B,2.5GHZ
+                                               RAM                                              :    4GB
+                                              HARD DISK                                 :   500GB
+                                              KEYBOARD                                :  STANDARD KEYBOARD
